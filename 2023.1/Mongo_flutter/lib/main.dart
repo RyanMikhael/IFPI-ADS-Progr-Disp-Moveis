@@ -59,13 +59,13 @@ class _MyHomePageState extends State<MyHomePage> {
             width: 320.0,
             child: Column(
               children: <Widget>[
-                // Image(
-                //   image: AssetImage(
-                //     'images/i489928.webp'
-                //   ),
-                //   width: 200.0,
-                //   height: 200.0,
-                // ),
+                Image(
+                  image: AssetImage(
+                    'images/i489928.webp'
+                  ),
+                  width: 200.0,
+                  height: 200.0,
+                ),
                 Container(
                     height: 30.0,
                   ),
