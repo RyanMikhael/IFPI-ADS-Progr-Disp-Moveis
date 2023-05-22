@@ -4,7 +4,7 @@ import 'model.dart';
 class Database{
   var db, userCollection;
   Future<Db> connectMongo() async {
-    db = await Db.create('mongodb+srv://ryanmikhael:ReNWdJgHqiTJcyeE@cluster0.nnfphmj.mongodb.net/teste?retryWrites=true&w=majority');
+    db = await Db.create('mongodb+srv://<username>:<password>@<host>/<database_name>?retryWrites=true&w=majority');
 
     await db.open();
     print('passou');
